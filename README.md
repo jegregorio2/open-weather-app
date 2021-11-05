@@ -1,2 +1,2 @@
 # open-weather-app
- The weather app to display one to five weather forecast.
+ The weather app to display one to five days weather forecast.
