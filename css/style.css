@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #dadada;
+  font-family: Arial, Verdana;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+header {
+  background-color: #2c6bb9;
+  padding: 20px;
+}
+
+@media (max-width: 450px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1,
+  header h2 {
+    text-align: center;
+  }
+}
+
+footer {
+  width: 100%;
+  clear: both;
+  background-color: #2c6bb9;
+  padding: 25px;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  footer {
+    padding: 10px 0px;
+  }
+}
+
+footer p {
+  font-weight: 700;
+  color: #000;
+}
+
+button {
+  background-color: #2c6bb9;
+  color: #000;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #388ef9;
+  color: #000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #eee;
+}
+
+th {
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+#pagewrapper {
+  padding: 20px;
+  background-color: #dadada;
+}
+
+.content {
+  /*height: 300px;*/
+  min-height: 400px;
+  padding-top: 10px;
+}
+
+.boxes {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 23px #888888;
+  margin: 10px;
+  float: left;
+}
+
+@media (max-width: 450px) {
+  .boxes {
+    margin: 0px;
+    box-shadow: 0px 0px 0px #fff;
+    /*border: 2px solid #000; */
+    /*padding-bottom: 20px;*/
+    margin-bottom: 20px;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.input_box {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 450px) {
+  .input_box {
+    /*width: 100%;*/
+    /*padding-bottom: 10px;*/
+    margin-bottom: 10px;
+    /*margin: 0 auto;*/
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

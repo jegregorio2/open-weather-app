@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- If IE use the latest rendering engine -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!-- Set the page to the width of the device and set the zoom level -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Open Weather</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/script.js"></script> 
+	<script src="js/moment.js"></script> 
+</head>
+<body>
+	<div id="pagewrapper">
+		<section>
+			<header>
+				<h1>openweathermap</h1>
+				<h2>by Juan E. Gregorio</h2>
+			</header>
+		</section>
+		<div class="content">
+			<input type="text" id="searchbox" name="searchbox" size="30" class="input_box" placeholder="Enter a location or a zip code" />
+			<button id="search_weather">Get Weather</button>
+			<button id="search_forecast">Get Forecast</button>
+			<div id="weather"></div>
+		</div>
+	</div>
+	<footer>
+		<p>Copyright &copy; 2020 by Juan E. Gregorio</p>
+	</footer>
+
+</body>
+</html>
+
